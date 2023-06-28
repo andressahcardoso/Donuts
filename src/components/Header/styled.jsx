@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const primeiroMenu = styled.header`
+export const PrimeiroMenu = styled.header`
     display: flex;
     justify-content: space-between;
     padding: 20px;

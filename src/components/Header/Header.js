@@ -1,15 +1,15 @@
+import {ButtonNav, PrimeiroMenu} from "./styled"
+
 import Menu from "../../assests/menu.svg"
 import Search from "../../assests/search.svg"
-import {ButtonNav, primeiroMenu} from "./styled"
+
 
 function Header() {
     return (
-        <>
-            <primeiroMenu>
-                <ButtonNav><img src={Menu} /></ButtonNav>
-                <ButtonNav><img src={Search} /></ButtonNav>
-            </primeiroMenu>
-        </>
+        <PrimeiroMenu>
+            <ButtonNav><img src={Menu} alt="Menu"/></ButtonNav>
+            <ButtonNav><img src={Search}  alt="Nav"/></ButtonNav>
+        </PrimeiroMenu>
     )
 }
 
