@@ -1,5 +1,4 @@
-// import './App.css';
-import Header from "../../donuts/src/components/Header/Header"
+import Home from './components/Home/Home';
 import StyledGlobal from './styledGlobal';
 import { CorFundo } from "./styledGlobal";
 
@@ -8,7 +7,7 @@ function App() {
    <>
    <CorFundo>
       <StyledGlobal/>
-      <Header/>
+      <Home/>
     </CorFundo>
    </>
   );
