@@ -4,11 +4,15 @@ import Menu from "../../assests/menu.svg"
 import Search from "../../assests/search.svg"
 
 
-function Header() {
+function Header(props) {
+
+    const handlePageChange = () => {
+        props.pagina()
+    }
     return (
         <PrimeiroMenu>
-            <ButtonNav><img src={Menu} alt="Menu"/></ButtonNav>
-            <ButtonNav><img src={Search}  alt="Nav"/></ButtonNav>
+            <ButtonNav onClick={handlePageChange}><img src={props.FirstImg} alt="Menu" /></ButtonNav>
+            <ButtonNav><img src={props.SecondImg}  alt="Nav"/></ButtonNav>
         </PrimeiroMenu>
     )
 }
