@@ -4,9 +4,16 @@ import HeaderTitle from "../HeaderTitle/HeaderTitle";
 import Nav from "../Nav/Nav";
 import { SectionCard } from "./styled";
 
-function Home() {
+import Menu from ""
+import Lupa from ""
+
+function Home(props) {
     <>
-        <Header/>
+        <Header
+        pagina={props.pagina}
+        FirstImg={Menu}
+        SecondImg={Lupa}
+        />
         <HeaderTitle/>
         <Nav/>
 
