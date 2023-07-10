@@ -1,7 +1,7 @@
 import {ButtonNav, PrimeiroMenu} from "./styled"
 
-import Menu from "../../assests/menu.svg"
-import Search from "../../assests/search.svg"
+// import Menu from "../../assests/menu.svg"
+// import Search from "../../assests/search.svg"
 
 
 function Header(props) {
@@ -10,10 +10,12 @@ function Header(props) {
         props.pagina()
     }
     return (
-        <PrimeiroMenu>
-            <ButtonNav onClick={handlePageChange}><img src={props.FirstImg} alt="Menu" /></ButtonNav>
-            <ButtonNav><img src={props.SecondImg} alt="Nav"/></ButtonNav>
-        </PrimeiroMenu>
+        <>
+            <PrimeiroMenu>
+                <ButtonNav onClick={handlePageChange}><img src={props.FirstImg} alt="Menu" /></ButtonNav>
+                <ButtonNav><img src={props.SecondImg} alt="Nav"/></ButtonNav>
+            </PrimeiroMenu>
+        </>
     )
 }
 

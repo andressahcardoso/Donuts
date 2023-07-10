@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const HeaderTitleContainer = styled.div`
+export const HeaderTitleContainer = styled.h1`
     width: 65px;
     padding: 28px;
     margin-top: 4vh;

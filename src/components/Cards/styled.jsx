@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 export const CardContainer = styled.div`
     border-radius: 15px;
-    background-color: #f1f1fa3;
-    width: 33w;
+    background-color: black;
+    width: 33vw;
+    height: 23.2vh;
     padding: 1.2vh;
     display: flex;
     flex-direction: column;

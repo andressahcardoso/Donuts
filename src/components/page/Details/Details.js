@@ -15,7 +15,7 @@ function Details(props) {
             />    
 
             <DetailsContainer>
-                <Image src={donutsGrande}/>
+                <Image src={donutsGrande} alt=''/>
 
                 <ContainerDiv>
                     <DonutsTitle>
@@ -26,7 +26,7 @@ function Details(props) {
                     </DonutsText> 
 
                     <Products>
-                        <img src={group}/>
+                        <img src={group} alt=''/>
                         <NumberText>7800</NumberText>
                     </Products>
 
@@ -38,7 +38,6 @@ function Details(props) {
                     <ButtonAddCard>Add to Card</ButtonAddCard>
                 </ContainerDiv>    
             </DetailsContainer> 
-
         </>
     )
 }

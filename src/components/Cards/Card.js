@@ -2,15 +2,17 @@ import { CardContainer, DivCard, ImagemCard, TextCard, TituloCard } from "./styl
 
 function Card() {
     return (
-    <CardContainer>
-        <ImagemCard src=""/>
-        <TituloCard>Título</TituloCard>
-        <TextCard>Donuts Title</TextCard>
-        <DivCard>
-            <p>R$: 7,90</p>
-            <a>Mais</a>
-        </DivCard>
-    </CardContainer>
+        <>
+            <CardContainer>
+                <ImagemCard src=''/>
+                <TituloCard>Título</TituloCard>
+                <TextCard>Donuts Title</TextCard>
+                <DivCard>
+                    <p>R$: 7,90</p>
+                    <p>Mais</p>
+                </DivCard>
+            </CardContainer>
+        </>
     )
 }
 

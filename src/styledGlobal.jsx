@@ -1,5 +1,4 @@
-import { styled } from "styled-components";
-import { createGlobalStyle } from "styled-components";
+import styled, {createGlobalStyle} from "styled-components";
 
 
 export default createGlobalStyle`
@@ -7,7 +6,7 @@ export default createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        background-color: black;
+        background-color: pink;
     }
   
 `
