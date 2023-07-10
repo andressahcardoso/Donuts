@@ -1,6 +1,6 @@
 import {ButtonStyle} from "./styled"
 
-function Button() {
+function Button(props) {
     return( 
         <ButtonStyle>
             {props.title}

@@ -1,11 +1,11 @@
-import {CardContainer, CardImg, CardText, CardTitle, DivCard} from "./styled"
+import { CardContainer, DivCard, ImagemCard, TextCard, TituloCard } from "./styled"
 
 function Card() {
     return (
     <CardContainer>
-        <CardImg src=""/>
-        <CardTitle>Título</CardTitle>
-        <CardText>Donuts Title</CardText>
+        <ImagemCard src=""/>
+        <TituloCard>Título</TituloCard>
+        <TextCard>Donuts Title</TextCard>
         <DivCard>
             <p>R$: 7,90</p>
             <a>Mais</a>

@@ -1,7 +1,7 @@
+import StyledGlobal, { CorFundo } from './styledGlobal';
 import { useState } from 'react';
-import Home from './components/Home/Home';
-import StyledGlobal from './styledGlobal';
-import { CorFundo } from "./styledGlobal";
+import Home from './components/page/Home/Home'
+import Details from './components/page/Details/Details'
 
 function App() {
 

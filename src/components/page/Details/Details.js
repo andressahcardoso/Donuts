@@ -1,21 +1,21 @@
-import {Header} from "../../Header/Header"
-import Seta from "../../assests/seta.png"
-import Ponto from "../../assests/ponto.png"
-import group from "../../assests/group.png"
-import donutsGrande from "../../assests/group.png"
-import { ContainerDiv, DetailsContainer, DonutsText, DonutsTitle, Image, MoreButton, MoreText, NumberText, Products } from "./styled"
+import Header from "../../Header/Header"
+import Seta from "../../../assests/menu.svg"
+import Ponto from "../../../assests/menu.svg"
+import group from "../../../assests/menu.svg"
+import donutsGrande from "../../../assests/menu.svg"
+import { ButtonAddCard, ContainerDiv, DetailsContainer, DonutsText, DonutsTitle, Image, MoreButton, MoreText, NumberText, Products } from "./styled"
 
 function Details(props) {
     return(
         <>
             <Header
-            page={props.pagina}
-            FirstImg={seta}
-            SecondImg={ponto}
+                page={props.pagina}
+                FirstImg={Seta}
+                SecondImg={Ponto}
             />    
 
             <DetailsContainer>
-                <Image src=""/>
+                <Image src={donutsGrande}/>
 
                 <ContainerDiv>
                     <DonutsTitle>
@@ -34,6 +34,8 @@ function Details(props) {
                         <MoreText>Need more?</MoreText>
                         <MoreButton>Add more</MoreButton>  
                     </Products>
+
+                    <ButtonAddCard>Add to Card</ButtonAddCard>
                 </ContainerDiv>    
             </DetailsContainer> 
 

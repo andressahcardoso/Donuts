@@ -12,7 +12,7 @@ function Header(props) {
     return (
         <PrimeiroMenu>
             <ButtonNav onClick={handlePageChange}><img src={props.FirstImg} alt="Menu" /></ButtonNav>
-            <ButtonNav><img src={props.SecondImg}  alt="Nav"/></ButtonNav>
+            <ButtonNav><img src={props.SecondImg} alt="Nav"/></ButtonNav>
         </PrimeiroMenu>
     )
 }

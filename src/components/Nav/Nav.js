@@ -1,4 +1,4 @@
-import filtro from "../../assests/filtro.png"
+import filtro from "../../assests/menu.svg"
 import Button from "../Button/Button"
 import { ContainerNav } from "./styled"
 
@@ -8,7 +8,7 @@ function Nav() {
             <Button title={"Donuts"}/>
             <Button title={"Ice Cream"}/>
             <Button title={"Bomboloni"}/>
-            <img src={filtro}/>
+            <img src={filtro} alt="filtro"/>
         </ContainerNav>
     )
 }

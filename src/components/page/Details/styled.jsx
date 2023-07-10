@@ -25,7 +25,7 @@ export const DonutsTitle = styled.h2`
 
 export const DonutsText = styled.p`
     width: 65vw;
-    color: white;
+    color: grey;
     font-size: 17px;
 `
 
@@ -49,6 +49,7 @@ export const MoreText = styled.p`
 export const MoreButton = styled.button`
     background-color: black;
     border: 1px solid grey;
+    padding: 10px;
     color: grey;
     border-radius: 10px;
 `
