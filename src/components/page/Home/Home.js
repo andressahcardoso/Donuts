@@ -8,22 +8,26 @@ import Menu from "../../../assests/menu.svg"
 import Lupa from "../../../assests/search.svg"
 
 function Home(props) {
-    <>
-        <Header
-            pagina={props.pagina}
-            FirstImg={Menu}
-            SecondImg={Lupa}
-        />
-        <HeaderTitle/>
-        <Nav/>
+    return(
+        <>
+            <Header
+                pagina={props.pagina}
+                FirstImg={Menu}
+                SecondImg={Lupa}
+            /> 
 
-        <SectionCard>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-        </SectionCard>
-    </>
+           
+        <HeaderTitle/>
+            <Nav/>
+
+            <SectionCard>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+            </SectionCard>
+        </>
+    )
 }
 
 export default Home
