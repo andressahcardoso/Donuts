@@ -5,7 +5,7 @@ import Nav from "../../Nav/Nav";
 import { SectionCard } from "./styled";
 
 import Menu from "../../../assests/menu.svg"
-import Lupa from "../../../assests/menu.svg"
+import Lupa from "../../../assests/search.svg"
 
 function Home(props) {
     <>

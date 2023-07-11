@@ -1,32 +1,32 @@
 import Header from "../../Header/Header"
-import Seta from "../../../assests/menu.svg"
-import Ponto from "../../../assests/menu.svg"
-import group from "../../../assests/menu.svg"
-import donutsGrande from "../../../assests/menu.svg"
+import Back from "../../../assests/back.svg"
+import Menu3 from "../../../assests/menu3.svg"
+import AddButtons from "../../../assests/AddButtons.svg"
+import LargeDonut from "../../../assests/LargeDonut.svg"
 import { ButtonAddCard, ContainerDiv, DetailsContainer, DonutsText, DonutsTitle, Image, MoreButton, MoreText, NumberText, Products } from "./styled"
 
 function Details(props) {
     return(
         <>
             <Header
-                page={props.pagina}
-                FirstImg={Seta}
-                SecondImg={Ponto}
+                pagina={props.pagina}
+                FirstImg={Back}
+                SecondImg={Menu3}
             />    
 
             <DetailsContainer>
-                <Image src={donutsGrande} alt=''/>
+                <Image src={LargeDonut} alt=''/>
 
                 <ContainerDiv>
                     <DonutsTitle>
-                        Inicorn Sprinkles    
+                        Unicorn Sprinkles    
                     </DonutsTitle> 
                     <DonutsText>
-                        Texto texto texto texto texto texto    
+                        A fluffy cooked donut covered by a creamy straberry flavour with rainbow sprinkles.
                     </DonutsText> 
 
                     <Products>
-                        <img src={group} alt=''/>
+                        <img src={AddButtons} alt=''/>
                         <NumberText>7800</NumberText>
                     </Products>
 

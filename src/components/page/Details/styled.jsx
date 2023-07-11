@@ -57,7 +57,7 @@ export const MoreButton = styled.button`
 export const ButtonAddCard = styled.button`
     font-size: 20px;
     font-weight: 700;
-    background-color: linear-gradient(130deg, #F9D03F)50% (grey);
+    background: linear-gradient(rgba(249, 208, 63, 1), rgba(233, 179, 42, 1));
     display: flex;
     align-items: center;
     justify-content: center;

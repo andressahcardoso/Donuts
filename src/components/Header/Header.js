@@ -7,13 +7,13 @@ import {ButtonNav, PrimeiroMenu} from "./styled"
 function Header(props) {
 
     const handlePageChange = () => {
-        props.pagina()
-    }
+        props.pagina() 
+    } 
     return (
         <>
             <PrimeiroMenu>
                 <ButtonNav onClick={handlePageChange}><img src={props.FirstImg} alt="Menu" /></ButtonNav>
-                <ButtonNav><img src={props.SecondImg} alt="Nav"/></ButtonNav>
+                <ButtonNav><img src={props.SecondImg} alt="Search"/></ButtonNav>
             </PrimeiroMenu>
         </>
     )

@@ -9,16 +9,16 @@ function App() {
 
   const changePage = (change) => {
     setTrocardePagina(change)
-  }
+  } 
 
   return (
    <>
     <CorFundo>
         <StyledGlobal/>
         {trocarDePagina === 0 ? (
-          <Home pagina={() => changePage(0)}/>
+          <Home pagina={() => changePage(1)}/>  
         ) : (
-          <Details pagina={() => changePage(1)}/>
+          <Details pagina={() => changePage(0)}/> 
         )}
     </CorFundo>
    </>
