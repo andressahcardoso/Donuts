@@ -1,15 +1,16 @@
 import { CardContainer, DivCard, ImagemCard, TextCard, TituloCard } from "./styled"
+import more from "../../assests/more.svg"
 
-function Card() {
+function Card(props) {
     return (
         <>
             <CardContainer>
-                <ImagemCard src=''/>
-                <TituloCard>Título</TituloCard>
-                <TextCard>Donuts Title</TextCard>
+                <ImagemCard src={props.donut}/>
+                <TituloCard>{props.name}</TituloCard>
+                <TextCard>{props.description}</TextCard>
                 <DivCard>
                     <p>R$: 7,90</p>
-                    <p>Mais</p>
+                    <img src={more} alt='Mais'/>
                 </DivCard>
             </CardContainer>
         </>

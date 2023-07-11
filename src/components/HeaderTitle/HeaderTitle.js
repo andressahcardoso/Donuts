@@ -1,9 +1,10 @@
-import { HeaderTitleContainer, TitleDetails } from "./styled"
+import { HeaderTitleContainer, TitleDetails, HeaderTitleStyle } from "./styled"
 
 function HeaderTitle() {
     return( 
         
-            <HeaderTitleContainer> Some sweets of
+            <HeaderTitleContainer> 
+                <HeaderTitleStyle> Some sweets of </HeaderTitleStyle>
                 <TitleDetails>Hapinnes!</TitleDetails>
             </HeaderTitleContainer>
         
